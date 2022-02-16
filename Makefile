@@ -5,10 +5,10 @@ gcc:
 	gcc -shared -Ofast -o my_lib.so my_lib.c
 
 test:
-	python test.py
+	python3 test.py
 
 example:
-	python main.py example
+	python3 main.py example
 
 benchmark:
-	python main.py benchmark
+	python3 main.py benchmark
